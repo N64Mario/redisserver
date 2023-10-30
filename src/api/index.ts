@@ -11,7 +11,7 @@ const routes = express.Router();
 app.use(express.json());
 require("./Link").default(routes);
 
-// add the helmet verion 4.0.0
+// add the helmet verion 4.6.0
 app.use("/api", routes);
 
 export default app;
